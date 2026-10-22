@@ -64,3 +64,7 @@ Public creator name: **Jamie JustiXXX** (exact spelling and capitalization). Pla
 ## Independent development track
 
 Continue visual and portable frontend development without waiting for a platform vendor. `#/manage-membership` now previews active and nonrenewing membership states, cancellation confirmation, and payment-update handoff. These sample states are not customer entitlements. The backend connection plan is in docs/BACKEND_CONNECTION_PLAN.md. No vendor inquiry has been sent by the assistant and no purchase has been made.
+
+## Scrile inquiry and purchase-library examples
+
+The user supplied screenshots confirming a Scrile Connect Solo inquiry sent October 21, 2026. No reply has been reviewed. See docs/SCRILE_INQUIRY_STATUS.md. The `#/library-example` route compares sample active/ended memberships, keeps individual purchases visually distinct, and labels purchase-after-expiry access as a proposed policy pending confirmation. No actual entitlements are granted.

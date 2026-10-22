@@ -49,4 +49,4 @@ These are evaluation requirements, not a claim that a vendor satisfies every jur
 - Sumsub pricing: https://sumsub.com/pricing/
 - Veriff Age Validation: https://www.veriff.com/product/age-validation
 
-Prices, terms and available methods may change. Confirm a scoped written quote before procurement. No vendor outreach has been sent.
+Prices, terms and available methods may change. Confirm a scoped written quote before procurement. User-provided screenshots confirm the user sent Scrile a sales inquiry on October 21, 2026. A reply has not been reviewed here. No follow-up has been sent by the assistant.
