@@ -60,3 +60,7 @@ Validation: JavaScript syntax checks; browser navigation across all destinations
 ## Creator identity
 
 Public creator name: **Jamie JustiXXX** (exact spelling and capitalization). Platinum After Dark remains the site brand. Amy’s Workshop remains the internal project/repository context. Public navigation, biography placeholders, and Live Lounge schedule copy use the creator identity. The fictional model placeholder does not depict Jamie JustiXXX.
+
+## Independent development track
+
+Continue visual and portable frontend development without waiting for a platform vendor. `#/manage-membership` now previews active and nonrenewing membership states, cancellation confirmation, and payment-update handoff. These sample states are not customer entitlements. The backend connection plan is in docs/BACKEND_CONNECTION_PLAN.md. No vendor inquiry has been sent by the assistant and no purchase has been made.
