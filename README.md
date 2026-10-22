@@ -72,3 +72,7 @@ The user supplied screenshots confirming a Scrile Connect Solo inquiry sent Octo
 ## Reporting and legal page layouts
 
 Draft routes: `#/complaints`, `#/copyright`, `#/safety`, and `#/legal-requests`, linked from the footer. These pages organise report types, planned intake information, related channels and submission acknowledgement design. They do not submit reports or accept documents and are not monitored channels. No legal fees, response deadlines, business address, designated agent, or contact email is invented. Final policies and operating procedures are pending.
+
+## Entry acknowledgment with policy links
+
+The warning screen includes a required 18+ self-acknowledgment checkbox and inline Terms, Privacy, complaint, copyright, safety and legal-request links. Those links open the same draft site information in a separate satin dialog before entry, without exposing the hidden site or checking the box. Continue stays disabled until the visitor checks the box. Closing a policy does not grant entry. Session confirmation uses a new versioned key so visitors see the revised notice. This remains self-declaration, not identity/age verification or a legal-readiness claim.
