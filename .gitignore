@@ -1,0 +1,23 @@
+# Dependencies and build output
+node_modules/
+.next/
+out/
+dist/
+build/
+coverage/
+
+# Local secrets and settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs and operating system files
+*.log
+.DS_Store
+Thumbs.db
+
+# Python tooling
+__pycache__/
+.venv/
