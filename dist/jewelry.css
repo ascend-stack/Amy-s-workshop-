@@ -1,0 +1,17 @@
+/* Satin background and sculptural open-wrap platinum fashion ring. */
+.hero{position:relative;isolation:isolate;max-width:none;min-height:650px;background:#29122c url('assets/plum-ring-panorama.webp') center / cover no-repeat}
+.hero:before{content:'';position:absolute;inset:0;background:linear-gradient(90deg,#140a1d75,transparent 68%),linear-gradient(0deg,#17101b55,transparent 28%);z-index:-1}
+.hero-art{background:transparent;min-height:570px;border:0;margin:0}
+.hero-art .diamond,.hero-art .spark{display:none}
+.hero-art .art-lines{display:none}
+.hero-art:after{display:none}
+.hero-copy{background:transparent;padding-left:max(10%,calc((100vw - 1360px) / 2));padding-top:75px;padding-bottom:50px}
+.hero-art .art-caption{bottom:82px}
+.hero-art .art-index{bottom:40px}
+.live-art{background:linear-gradient(#23132cb0,#160d20c9),url('assets/plum-platinum-wrap-ring.webp') center bottom / auto 330% no-repeat}
+.orb{border:0;border-radius:0;box-shadow:none;width:310px;height:310px;left:calc(50% - 155px);top:120px;transform:rotate(45deg);background:none}
+.orb:after{inset:0;border:1px solid #e9d9f15c;border-radius:0;box-shadow:0 0 30px #dcb1f017}
+.closing{background:linear-gradient(#271531d9,#211329d9),url('assets/plum-platinum-wrap-ring.webp') center bottom / auto 400% no-repeat}
+@media(max-width:950px){.orb{width:250px;height:250px;left:calc(50% - 125px);top:150px}}
+@media(max-width:950px) and (min-width:641px){.hero{background-position:60% center}.hero-copy{padding-left:10%}.hero-art{min-height:570px}}
+@media(max-width:640px){.hero{background-image:linear-gradient(#17101b00,#17101b22),url('assets/plum-platinum-wrap-ring.webp');background-size:100% 100%,100% auto;background-position:center,center bottom;background-repeat:no-repeat;min-height:0;background-color:#281128}.hero:before{background:linear-gradient(180deg,#1b0d23fa 0%,#211026eb 37%,#21102644 55%,transparent 70%)}.hero-copy{padding:48px 7% 22px}.hero-art{min-height:390px;margin:0}.hero-art .art-caption{left:7%;bottom:52px}.hero-art .art-index{left:7%;bottom:22px}.orb{top:85px}.live-art{background-size:auto 380%}}

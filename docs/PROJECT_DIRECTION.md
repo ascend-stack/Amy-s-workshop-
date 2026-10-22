@@ -1,29 +1,21 @@
 # Amy’s Workshop — Project Direction
 
-Status: repository initialized; website implementation has not started.
+Status: solo-site design prototype implemented under the working public-facing brand Platinum After Dark. Source and optimized assets are in dist/.
 
 ## Confirmed direction
 
-- Preserve the previously approved visual design. Recover and review its actual reference files before implementing the interface; this document does not replace those references.
-- Convenience is a priority when selecting development and hosting services, but the approved design is a firm requirement.
-- Begin with Amy as the featured creator while leaving room for a possible future multi-creator platform. Expansion is exploratory, not a committed launch requirement.
-- Scrile is a candidate platform. Its customization, source-code access, integration options, and compatibility with the approved design still require verification.
+- Amy’s solo site is the active scope. A future multi-creator platform remains exploratory.
+- Preserve the approved deep plum satin, platinum jewelry, crystal accents, serif lettering, and bordered glowing buttons.
+- Use non-explicit fictional adult model placeholders for visual evaluation until final imagery is selected.
+- Every popup uses the fabric styling.
+- Entry screen provides an 18+ content warning and self-declaration, not verified-age access.
+- Convenience is a priority; the approved design remains a firm requirement.
 
-## Repository purpose
+## Before commercial launch
 
-Version-control the website source, project documentation, and integration configuration once implementation choices are verified.
+- Confirm Scrile or another provider supports the exact design, integration needs, protected media, payments, and live features.
+- Implement jurisdiction-appropriate age assurance and server-enforced restricted-media access; browser confirmation is not authorization.
+- Connect accounts, payments, subscriptions, streaming, real support, and final policies.
+- Replace all sample prices and content with approved launch material.
 
-## Before website implementation
-
-1. Recover the approved design and source assets and document the reference version.
-2. Establish the initial feature scope and distinguish launch needs from possible expansion.
-3. Verify the candidate platform's customization and hosting options against the required design.
-4. Choose the implementation stack and record the decision.
-
-## Development practices
-
-- Keep credentials out of source control; supply placeholders in `.env.example` when needed.
-- Keep private creator media and identity documents out of this repository.
-- Document setup and validation commands when executable code is added.
-
-No production deployment or platform purchase has been made through this initialization.
+See README.md for local preview instructions and current limitations. No platform purchase or commercial launch has been made through this work.

@@ -1,0 +1,7 @@
+/* Entry is visible by default; page content remains hidden until confirmation. */
+#age-entry{min-height:100svh;display:grid;place-items:center;padding:40px 6%;background:linear-gradient(#1a0c2155,#170b2077),url('assets/live-lounge-satin.webp') center / cover no-repeat}
+.entry-panel{width:min(760px,100%);padding:46px clamp(22px,5vw,65px);text-align:center;border:1px solid #c7b3d180;background:linear-gradient(#221026b0,#170b20d0);box-shadow:inset 0 0 50px #dbc0e50a,0 20px 80px #0005}
+.entry-brand{display:block;font-family:Georgia,serif;letter-spacing:5px;font-size:21px;margin-bottom:42px}.entry-brand>span{display:block;font-size:43px;margin-bottom:10px}.entry-brand small{display:block;font:8px Manrope,Arial,sans-serif;letter-spacing:5px;margin-top:9px}
+.entry-panel .eyebrow{font-size:8px;line-height:1.7}.entry-panel h1{font-size:clamp(40px,5vw,65px);line-height:1.06}.entry-panel h1:focus{outline:none}
+.entry-notice{max-width:540px;margin:27px auto;color:#d9cddd;font-size:13px;line-height:1.85}.entry-actions{display:flex;align-items:center;justify-content:center;gap:24px;flex-wrap:wrap}.entry-exit{font-size:12px;text-decoration:underline;text-underline-offset:5px;padding:12px}.entry-preview{font-size:10px;line-height:1.8;color:#b6a8c0;margin:26px auto 0;max-width:440px}
+@media(max-width:640px){#age-entry{padding:24px 5%}.entry-panel{padding:30px 22px}.entry-brand{margin-bottom:30px}.entry-panel .button{width:100%;justify-content:center;font-size:17px}.entry-actions{gap:9px}}
