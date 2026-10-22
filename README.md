@@ -68,3 +68,7 @@ Continue visual and portable frontend development without waiting for a platform
 ## Scrile inquiry and purchase-library examples
 
 The user supplied screenshots confirming a Scrile Connect Solo inquiry sent October 21, 2026. No reply has been reviewed. See docs/SCRILE_INQUIRY_STATUS.md. The `#/library-example` route compares sample active/ended memberships, keeps individual purchases visually distinct, and labels purchase-after-expiry access as a proposed policy pending confirmation. No actual entitlements are granted.
+
+## Reporting and legal page layouts
+
+Draft routes: `#/complaints`, `#/copyright`, `#/safety`, and `#/legal-requests`, linked from the footer. These pages organise report types, planned intake information, related channels and submission acknowledgement design. They do not submit reports or accept documents and are not monitored channels. No legal fees, response deadlines, business address, designated agent, or contact email is invented. Final policies and operating procedures are pending.
