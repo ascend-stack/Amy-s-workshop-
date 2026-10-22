@@ -13,3 +13,11 @@
 @media(hover:hover) and (prefers-reduced-motion:no-preference){.button.platinum:hover:after,.invitation-button:hover:after{animation:gem-glint 1.5s ease-in-out infinite alternate}.brand:hover .platinum-word{filter:drop-shadow(0 0 7px #f3dfffaa)}}
 @keyframes gem-glint{from{opacity:.65;transform:scale(.85)}to{opacity:1;transform:scale(1.15)}}
 @media(forced-colors:active){.platinum-word{background:none;-webkit-text-fill-color:CanvasText;filter:none}.button.platinum:after,.brand-gem:after,.invitation-button:after{display:none}}
+
+/* A faceted gemstone replaces the open diamond glyph throughout the interface. */
+.faceted-gem{display:inline-block;width:1em;height:1em;background:url('assets/platinum-gem.svg') center / contain no-repeat;vertical-align:middle;filter:drop-shadow(0 0 5px #ead3ff66)}
+.brand-gem{display:inline-flex;width:45px;height:45px;align-items:center;justify-content:center;flex-shrink:0}.brand-gem .faceted-gem{width:45px;height:45px}.brand-gem:after{display:none}
+.entry-brand>span:first-child{font-size:43px;line-height:1}.entry-brand .faceted-gem{width:55px;height:55px}
+.card-gem .faceted-gem{width:42px;height:42px}.stage-gem .faceted-gem{width:70px;height:70px}
+.invitation-gem{background:#211025;line-height:0}.invitation-gem .faceted-gem{width:37px;height:37px}
+@media(max-width:640px){.brand-gem,.brand-gem .faceted-gem{width:37px;height:37px}}
