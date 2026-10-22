@@ -56,3 +56,7 @@ Use hash routes so every destination works on static hosting and survives refres
 All images and their CSS crops can be replaced later. The hero retains the approved ring and satin design. Destination pages reuse the same typography, satin, platinum borders and glowing action buttons.
 
 Validation: JavaScript syntax checks; browser navigation across all destinations; desktop and 375px content-width overflow checks; saved-release/library journey; entry and footer reset. Provider research is recorded in docs/AGE_ASSURANCE_OPTIONS.md. This is a complete visual pass, not a commercial readiness or compliance certification.
+
+## Creator identity
+
+Public creator name: **Jamie JustiXXX** (exact spelling and capitalization). Platinum After Dark remains the site brand. Amy’s Workshop remains the internal project/repository context. Public navigation, biography placeholders, and Live Lounge schedule copy use the creator identity. The fictional model placeholder does not depict Jamie JustiXXX.
