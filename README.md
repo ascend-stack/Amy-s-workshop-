@@ -59,7 +59,7 @@ Validation: JavaScript syntax checks; browser navigation across all destinations
 
 ## Creator identity
 
-Public creator name: **Jamie JustiXXX** (exact spelling and capitalization). Platinum After Dark remains the site brand. Amy’s Workshop remains the internal project/repository context. Public navigation, biography placeholders, and Live Lounge schedule copy use the creator identity. The fictional model placeholder does not depict Jamie JustiXXX.
+Public creator name: **Jamie Justuce** (exact spelling and capitalization). Any XXX styling is undecided and reserved for Jamie’s approval. Platinum After Dark remains the site brand. Amy’s Workshop remains the internal project/repository context. Public navigation, biography placeholders, and Live Lounge schedule copy use the creator identity. The fictional model placeholder does not depict Jamie Justuce.
 
 ## Independent development track
 

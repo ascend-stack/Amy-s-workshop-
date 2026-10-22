@@ -2,7 +2,7 @@
 
 Status: design and portable frontend may continue without a vendor response. This is our proposed interface boundary, not documentation of existing Scrile APIs. No backend, paid service, or integration has been activated by this plan.
 
-Public creator: Jamie JustiXXX. Site brand: Platinum After Dark. Internal project: Amy’s Workshop.
+Public creator: Jamie Justuce. Site brand: Platinum After Dark. Internal project: Amy’s Workshop.
 
 ## Decisions that remain open
 

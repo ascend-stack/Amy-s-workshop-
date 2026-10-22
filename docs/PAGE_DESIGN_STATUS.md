@@ -1,10 +1,10 @@
 # Solo-site visual design pass
 
-Working brand: Platinum After Dark. Public creator identity: Jamie JustiXXX. Active scope: her solo site; Amy’s Workshop is the internal project name.
+Working brand: Platinum After Dark. Public creator identity: Jamie Justuce. Active scope: her solo site; Amy’s Workshop is the internal project name.
 
 Implemented: age-entry screen; approved homepage; standalone Live Lounge with offline and simulated-live states; filterable/searchable catalog; three release-detail pages; membership and FAQs; saved/purchased/member library states; account, billing and privacy layouts; sign-in/signup/password-recovery preview; checkout and confirmation layouts; provider-neutral verification journey; About Jamie; draft privacy/terms/support pages.
 
-All images remain replaceable and crop positions adjustable. The generated adult fashion model is fictional and does not depict Jamie JustiXXX. Biography, content, pricing and membership benefits remain provisional.
+All images remain replaceable and crop positions adjustable. The generated adult fashion model is fictional and does not depict Jamie Justuce. Biography, content, pricing and membership benefits remain provisional.
 
 Interactive prototype features: hash-route navigation and browser back/forward; category/title filtering; local saved collections and count; library tabs; offline/live layout toggle and local-only chat; explanatory verification and billing dialogs; age confirmation and reset. No real authentication, broadcast, media playback, purchase, subscription, password recovery, or age check is performed.
 
