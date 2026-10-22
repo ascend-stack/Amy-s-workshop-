@@ -1,0 +1,15 @@
+/* Platinum dust and gemstone glints; retain the approved plum satin palette. */
+.platinum-word{display:inline-block;color:#f2edf7;background-image:radial-gradient(circle at 12% 30%,#fff 0 .65px,transparent 1.3px),radial-gradient(circle at 65% 65%,#fff 0 .7px,transparent 1.5px),linear-gradient(115deg,#9c93aa 0%,#fff 18%,#c5bcd3 32%,#fff 44%,#a89bb8 58%,#fdfaff 73%,#b3a7c1 88%,#fff);background-size:7px 6px,11px 9px,100% 100%;background-clip:text;-webkit-background-clip:text;-webkit-text-fill-color:transparent;filter:drop-shadow(0 0 5px #e8cfff55)}
+.entry-brand>.platinum-word{display:inline-block;font-size:32px;margin-bottom:0}.entry-brand>span:first-child{color:#f9f3ff;text-shadow:0 0 5px #fff9,0 0 22px #dab4ed88}
+.brand-gem,.card-gem,.invitation-gem,.stage-gem{color:#faf4ff;text-shadow:0 0 5px #fff8,0 0 20px #d2b1ed88;filter:drop-shadow(0 0 3px #f0dfff66)}
+.brand-gem{position:relative}.brand-gem:after{content:'✦';position:absolute;right:-3px;top:4px;font-family:Georgia,serif;font-size:13px;color:#fff;text-shadow:0 0 9px #fff}
+.button.platinum,.invitation-button{border-color:#eadff6ba;box-shadow:inset 0 1px 0 #fff4,inset 0 0 18px #e8d1f127,0 0 17px #d8b7ed26;background-image:radial-gradient(circle at 15% 20%,#fff8 0 .6px,transparent 1px),radial-gradient(circle at 75% 75%,#e9d6ff55 0 .6px,transparent 1px),linear-gradient(120deg,#74516d9c,#321632 55%,#5a365c99);background-size:19px 17px,27px 23px,100% 100%}
+.button.platinum:after,.invitation-button:after{content:'✦';position:absolute;right:-6px;bottom:-9px;font:18px Georgia,serif;color:#fff;text-shadow:0 0 6px #fff,0 0 15px #d9b6f2;pointer-events:none}
+.button.platinum:before{width:4px;height:4px;box-shadow:0 0 9px 3px #f8edff99,0 0 20px 4px #d8aee866}
+.entry-panel,.membership-card,.member-invitation,dialog,.surface{border-color:#dac5e58c;box-shadow:inset 0 1px 0 #fff2,inset 0 0 35px #d8b9ed0a,0 0 22px #ceaceb12,0 20px 65px #0a050c50}
+.ribbon{border-image:linear-gradient(90deg,#dbc4ef20,#f3e5ff99,#dbc4ef20) 1}.ribbon i{color:#fff;text-shadow:0 0 10px #f1d8ff}
+.membership-card:before,.member-invitation:before{content:'';position:absolute;top:-1px;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,#fff,transparent);pointer-events:none}
+.hero-copy h1 em,.page-heading h1 em{color:#ddcde9;text-shadow:0 0 25px #dfb3f31a}
+@media(hover:hover) and (prefers-reduced-motion:no-preference){.button.platinum:hover:after,.invitation-button:hover:after{animation:gem-glint 1.5s ease-in-out infinite alternate}.brand:hover .platinum-word{filter:drop-shadow(0 0 7px #f3dfffaa)}}
+@keyframes gem-glint{from{opacity:.65;transform:scale(.85)}to{opacity:1;transform:scale(1.15)}}
+@media(forced-colors:active){.platinum-word{background:none;-webkit-text-fill-color:CanvasText;filter:none}.button.platinum:after,.brand-gem:after,.invitation-button:after{display:none}}
