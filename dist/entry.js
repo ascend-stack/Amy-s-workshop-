@@ -13,10 +13,10 @@ if (confirmed) enterPreview();
 document.querySelector('#confirm-age').addEventListener('click', () => {
   try { sessionStorage.setItem(entryKey, 'confirmed'); } catch {}
   enterPreview();
-  const heading = document.querySelector('#home h1');
+  const heading = document.querySelector('main h1, main h2');
   heading.setAttribute('tabindex', '-1');
   heading.focus({preventScroll: true});
-  document.querySelector('#home').scrollIntoView({behavior:'instant'});
+  window.scrollTo({top:0,behavior:'instant'});
 });
 document.querySelector('#review-age').addEventListener('click', () => {
   try { sessionStorage.removeItem(entryKey); } catch {}

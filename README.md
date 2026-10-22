@@ -35,3 +35,24 @@ The satin entry screen defaults to visible and hides the page until the visitor 
 Before production: select age assurance appropriate to the served jurisdictions, validate provider results server-side, enforce access on every restricted-media route, use protected media storage, and define privacy and retention policies. Do not use a browser flag to protect explicit media. Creator identity verification is a separate workflow.
 
 Serve locally with `python3 -m http.server 8000 --directory dist`, then open localhost:8000. Generated PNG source assets have been replaced with optimized WebP copies for website delivery.
+
+## Full solo-site visual pages
+
+Use hash routes so every destination works on static hosting and survives refresh:
+
+- `#/home`: approved landing design
+- `#/collection`: catalog with category and title search
+- `#/release/velvet`, `#/release/silver`, `#/release/midnight`: individual release views
+- `#/live`: offline and simulated live layouts; local-only chat demonstration
+- `#/membership`: benefits, plan and FAQs
+- `#/library`: saved, purchased and membership sections (only browser-local saves work)
+- `#/account`: profile, billing and privacy designs
+- `#/signin`, `#/signup`: account-entry layouts; no personal information collected
+- `#/checkout/velvet`, `#/checkout/membership`: checkout designs without a payment form
+- `#/confirmation/velvet`: confirmation layout; no order is created
+- `#/verify`: provider-neutral age-assurance journey; no camera or document access
+- `#/about`, `#/privacy`, `#/terms`, `#/support`: editorial and supporting pages
+
+All images and their CSS crops can be replaced later. The hero retains the approved ring and satin design. Destination pages reuse the same typography, satin, platinum borders and glowing action buttons.
+
+Validation: JavaScript syntax checks; browser navigation across all destinations; desktop and 375px content-width overflow checks; saved-release/library journey; entry and footer reset. Provider research is recorded in docs/AGE_ASSURANCE_OPTIONS.md. This is a complete visual pass, not a commercial readiness or compliance certification.
