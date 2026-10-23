@@ -15,9 +15,20 @@
 @media(forced-colors:active){.platinum-word{background:none;-webkit-text-fill-color:CanvasText;filter:none}.button.platinum:after,.brand-gem:after,.invitation-button:after{display:none}}
 
 /* A faceted gemstone replaces the open diamond glyph throughout the interface. */
-.faceted-gem{display:inline-block;width:1em;height:1em;background:url('assets/platinum-gem.svg') center / contain no-repeat;vertical-align:middle;filter:drop-shadow(0 0 5px #ead3ff66)}
+.faceted-gem{display:inline-block;width:1em;height:1em;background:url('assets/platinum-gem-raised.png') center / contain no-repeat;vertical-align:middle;filter:drop-shadow(0 0 5px #ead3ff66)}
 .brand-gem{display:inline-flex;width:45px;height:45px;align-items:center;justify-content:center;flex-shrink:0}.brand-gem .faceted-gem{width:45px;height:45px}.brand-gem:after{display:none}
 .entry-brand>span:first-child{font-size:43px;line-height:1}.entry-brand .faceted-gem{width:55px;height:55px}
 .card-gem .faceted-gem{width:42px;height:42px}.stage-gem .faceted-gem{width:70px;height:70px}
 .invitation-gem{background:#211025;line-height:0}.invitation-gem .faceted-gem{width:37px;height:37px}
 @media(max-width:640px){.brand-gem,.brand-gem .faceted-gem{width:37px;height:37px}}
+
+/* Raised jewelry rendering: transparent edges let the real satin show through. */
+.faceted-gem{filter:drop-shadow(2px 5px 3px #08030bc9) drop-shadow(-1px -1px 1px #fff3)}
+.brand-gem,.brand-gem .faceted-gem{width:58px;height:58px}.brand-gem{overflow:visible}
+.entry-brand .faceted-gem{width:96px;height:96px}.entry-brand>span:first-child{margin-bottom:7px}
+.card-gem .faceted-gem{width:54px;height:54px}.card-gem{top:18px;right:20px}
+.stage-gem .faceted-gem{width:104px;height:104px}.invitation-gem .faceted-gem{width:26px;height:26px}
+@media(max-width:640px){.brand-gem,.brand-gem .faceted-gem{width:47px;height:47px}.entry-brand .faceted-gem{width:80px;height:80px}.card-gem .faceted-gem{width:46px;height:46px}}
+
+/* Keep the small border jewel clear of the membership action at every width. */
+.invitation-gem{bottom:-13px;background:transparent;padding:0;filter:none}
