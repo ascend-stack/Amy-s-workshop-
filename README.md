@@ -2,6 +2,10 @@
 
 Portable, buildless website prototype. Serve `dist/` through any static web server. No framework or build step is required.
 
+## Current vendor evaluation — October 23, 2026
+
+We are evaluating Adent xFans for Platinum After Dark: Jamie Justuce as the founding creator, creator registration hidden at launch, and the option to enable other creators later. Preserve the approved plum satin, platinum lettering, raised gemstones, layouts, and mobile experience. See `docs/XFANS_REVIEW_BRIEF.md` for scope, quoted costs, and questions requiring written confirmation. Earlier Scrile notes are historical research, not the current vendor brief. This remains a frontend prototype; no platform purchase or integration is represented as complete.
+
 ## Included
 
 Responsive homepage, filterable sample collection, detail dialogs, browser-local saved preview library, membership preview, live lounge, and explanatory privacy/terms/support dialogs. Locked palette: deep plum, platinum, rhinestone-inspired gemstone details. Abstract CSS and SVG artwork contains no explicit media.
@@ -78,3 +82,5 @@ Draft routes: `#/complaints`, `#/copyright`, `#/safety`, and `#/legal-requests`,
 The warning screen includes a required 18+ self-acknowledgment checkbox and inline Terms, Privacy, complaint, copyright, safety and legal-request links. Those links open the same draft site information in a separate satin dialog before entry, without exposing the hidden site or checking the box. Continue stays disabled until the visitor checks the box. Closing a policy does not grant entry. Session confirmation uses a new versioned key so visitors see the revised notice. This remains self-declaration, not identity/age verification or a legal-readiness claim.
 
 Platinum sparkle direction: metallic lettering, fine glitter highlights, luminous gemstone marks, and restrained corner glints across buttons and satin panels. Motion is optional and disabled for reduced-motion preferences.
+
+Raised gemstone asset: `dist/assets/platinum-gem-raised.png`, generated with the built-in image tool. Prompt direction: photorealistic three-dimensional diamond in a thick polished platinum bezel, subtle plum reflections, transparent background, restrained natural glints. Shared branding accents use the transparent jewelry render with a soft shadow over the satin.
