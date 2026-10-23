@@ -4,7 +4,7 @@ Portable, buildless website prototype. Serve `dist/` through any static web serv
 
 ## Current vendor evaluation — October 23, 2026
 
-We are evaluating Adent xFans for Platinum After Dark: Jamie Justuce as the founding creator, creator registration hidden at launch, and the option to enable other creators later. Preserve the approved plum satin, platinum lettering, raised gemstones, layouts, and mobile experience. See `docs/XFANS_REVIEW_BRIEF.md` for scope, quoted costs, and questions requiring written confirmation. Earlier Scrile notes are historical research, not the current vendor brief. This remains a frontend prototype; no platform purchase or integration is represented as complete.
+We are evaluating Adent xFans for Platinum After Dark: Jamie Justice as the founding creator, creator registration hidden at launch, and the option to enable other creators later. Preserve the approved plum satin, platinum lettering, raised gemstones, layouts, and mobile experience. See `docs/XFANS_REVIEW_BRIEF.md` for scope, quoted costs, and questions requiring written confirmation. Earlier Scrile notes are historical research, not the current vendor brief. This remains a frontend prototype; no platform purchase or integration is represented as complete.
 
 ## Included
 
@@ -63,7 +63,7 @@ Validation: JavaScript syntax checks; browser navigation across all destinations
 
 ## Creator identity
 
-Public creator name: **Jamie Justuce** (exact spelling and capitalization). Any XXX styling is undecided and reserved for Jamie’s approval. Platinum After Dark remains the site brand. Amy’s Workshop remains the internal project/repository context. Public navigation, biography placeholders, and Live Lounge schedule copy use the creator identity. The fictional model placeholder does not depict Jamie Justuce.
+Public creator name: **Jamie Justice** (exact spelling and capitalization). Any XXX styling is undecided and reserved for Jamie’s approval. Platinum After Dark remains the site brand. Amy’s Workshop remains the internal project/repository context. Public navigation, biography placeholders, and Live Lounge schedule copy use the creator identity. The fictional model placeholder does not depict Jamie Justice.
 
 ## Independent development track
 

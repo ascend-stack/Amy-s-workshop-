@@ -4,7 +4,7 @@ Updated October 23, 2026. For review and scoping; this is not a purchase order o
 
 ## Direction
 
-Platinum After Dark is the full platform name. Jamie Justuce is the founding creator (exact public spelling). Launch with Jamie alone and creator registration hidden or disabled; retain the option to enable additional creators later. XXX styling remains undecided and requires Jamie's approval.
+Platinum After Dark is the full platform name. Jamie Justice is the founding creator (exact public spelling). Launch with Jamie alone and creator registration hidden or disabled; retain the option to enable additional creators later. XXX styling remains undecided and requires Jamie's approval.
 
 Preserve the approved deep plum satin design, platinum lettering and sparkle, raised photorealistic gemstones, page layouts, and responsive presentation. The membership invitation's gemstone is intentionally small and positioned below the panel so it clears the View Membership button. The existing prototype is portable static HTML/CSS/JavaScript, not a connected xFans installation.
 

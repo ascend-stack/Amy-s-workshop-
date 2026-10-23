@@ -4,7 +4,7 @@ Updated October 23, 2026. Status: frontend design prototype; Adent xFans is unde
 
 ## Current direction
 
-- Launch with Jamie Justuce as the founding creator, with creator registration hidden or disabled. Enable additional creators later.
+- Launch with Jamie Justice as the founding creator, with creator registration hidden or disabled. Enable additional creators later.
 - Preserve the approved deep plum satin, platinum jewelry, raised gemstones, serif lettering, bordered glowing buttons, layouts, and mobile presentation.
 - Use fictional adult model placeholders until Jamie approves final imagery, content, biography, prices, and boundaries.
 - Convenience is a priority; the approved design remains a firm requirement.

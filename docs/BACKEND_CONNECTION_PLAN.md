@@ -2,7 +2,7 @@
 
 Status: Adent xFans is under evaluation following Nathan's proposal. The intended launch starts with Jamie alone, with additional creators enabled later. This document describes required behavior, not verified xFans or Scrile API capabilities. No backend, paid service, or integration has been activated by this plan. Current scope and open questions are in XFANS_REVIEW_BRIEF.md.
 
-Public creator: Jamie Justuce. Site brand: Platinum After Dark. Internal project: Amy’s Workshop.
+Public creator: Jamie Justice. Site brand: Platinum After Dark. Internal project: Amy’s Workshop.
 
 ## Decisions that remain open
 
