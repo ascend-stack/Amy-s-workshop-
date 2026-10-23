@@ -1,21 +1,17 @@
-# Amy’s Workshop — Project Direction
+# Platinum After Dark — Project Direction
 
-Status: solo-site design prototype implemented under the working public-facing brand Platinum After Dark. Source and optimized assets are in dist/.
+Updated October 23, 2026. Status: frontend design prototype; Adent xFans is under evaluation. Source and assets are in `dist/`. Amy’s Workshop is the internal repository name.
 
-## Confirmed direction
+## Current direction
 
-- Amy’s solo site is the active scope. A future multi-creator platform remains exploratory.
-- Preserve the approved deep plum satin, platinum jewelry, crystal accents, serif lettering, and bordered glowing buttons.
-- Use non-explicit fictional adult model placeholders for visual evaluation until final imagery is selected.
-- Every popup uses the fabric styling.
-- Entry screen provides an 18+ content warning and self-declaration, not verified-age access.
+- Launch with Jamie Justuce as the founding creator, with creator registration hidden or disabled. Enable additional creators later.
+- Preserve the approved deep plum satin, platinum jewelry, raised gemstones, serif lettering, bordered glowing buttons, layouts, and mobile presentation.
+- Use fictional adult model placeholders until Jamie approves final imagery, content, biography, prices, and boundaries.
 - Convenience is a priority; the approved design remains a firm requirement.
+- The entry screen is an 18+ self-declaration prototype. Production age assurance, accounts, payments, protected media, and streaming remain to be connected.
 
-## Before commercial launch
+## Vendor review
 
-- Confirm Scrile or another provider supports the exact design, integration needs, protected media, payments, and live features.
-- Implement jurisdiction-appropriate age assurance and server-enforced restricted-media access; browser confirmation is not authorization.
-- Connect accounts, payments, subscriptions, streaming, real support, and final policies.
-- Replace all sample prices and content with approved launch material.
+Nathan's quoted xFans build total is $4,549: $1,499 license, approximately $2,400 design integration, and approximately $650 Yoti integration. Existing xFans pages/features are within the proposed design scope; new functionality requires a separate quote. Final scope, price, timeline, acceptance terms, and recurring costs need written confirmation.
 
-See README.md for local preview instructions and current limitations. No platform purchase or commercial launch has been made through this work.
+See `XFANS_REVIEW_BRIEF.md` for the full review checklist. Earlier Scrile research is historical. An escort advertising directory is outside the confirmed build scope. No purchase or commercial launch is represented as complete.

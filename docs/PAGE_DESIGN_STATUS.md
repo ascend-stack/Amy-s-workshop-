@@ -1,6 +1,6 @@
-# Solo-site visual design pass
+# Platinum After Dark — design review status
 
-Working brand: Platinum After Dark. Public creator identity: Jamie Justuce. Active scope: her solo site; Amy’s Workshop is the internal project name.
+Working brand: Platinum After Dark. Public creator identity: Jamie Justuce. The current prototype presents Jamie as the founding creator. We are evaluating Adent xFans to launch with Jamie alone, hide creator registration initially, and enable additional creators later. Amy’s Workshop is the internal repository name. See XFANS_REVIEW_BRIEF.md for the current vendor review scope.
 
 Implemented: age-entry screen; approved homepage; standalone Live Lounge with offline and simulated-live states; filterable/searchable catalog; three release-detail pages; membership and FAQs; saved/purchased/member library states; account, billing and privacy layouts; sign-in/signup/password-recovery preview; checkout and confirmation layouts; provider-neutral verification journey; About Jamie; draft privacy/terms/support pages.
 

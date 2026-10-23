@@ -1,12 +1,12 @@
 # Backend connection plan — independent development track
 
-Status: design and portable frontend may continue without a vendor response. This is our proposed interface boundary, not documentation of existing Scrile APIs. No backend, paid service, or integration has been activated by this plan.
+Status: Adent xFans is under evaluation following Nathan's proposal. The intended launch starts with Jamie alone, with additional creators enabled later. This document describes required behavior, not verified xFans or Scrile API capabilities. No backend, paid service, or integration has been activated by this plan. Current scope and open questions are in XFANS_REVIEW_BRIEF.md.
 
 Public creator: Jamie Justuce. Site brand: Platinum After Dark. Internal project: Amy’s Workshop.
 
 ## Decisions that remain open
 
-- Managed creator platform versus an independently operated backend.
+- Final platform selection and agreement; xFans is the current evaluation direction.
 - Which service supplies visitor age assurance and which supplies creator identity/consent checks.
 - Adult-compatible payment processor, protected media/streaming, hosting, email delivery, and customer support.
 - Served locations, final policies, business operator details, and content/pricing approval.
