@@ -51,3 +51,11 @@ Preserve deep plum satin, platinum lettering, raised gemstone, shimmer/glow tabs
 Launch initially with Jamie alone and creator registration hidden/disabled; accommodate future creators. xFans content and live features, directory integration, security, maintenance and recurring costs must be itemized in the fixed quote. Directory production launch requires the separate operational/provider/legal review already planned. The directory placeholder is not evidence of an implemented directory backend.
 
 Earlier Scrile research and old solo-page status documents are historical where they conflict with the current requirements. External impersonation/takedown protection is separate from website security. ASCEND AI automation is a future optional integration, not implemented or authorized for autonomous account/payment actions.
+
+## Account and monetization separation — approved October 24, 2026
+
+One free verified platform account supports customer, creator and advertiser roles with separately authorized onboarding. No site-wide premium plan is selected. Creator subscriptions cover only the named creator; Jamie's subscription is labeled Subscribe to Jamie / Jamie Justice Membership. Individual purchases and paid live events/interactions are separately labeled and billed. Directory advertiser listing plans and optional featured placement are separate, with final pricing and enrollment pending.
+
+Placement: guest header has Sign In / Create Account. In the explicit signed-in-navigation demo, the header has My Library / My Account. Account contains Subscriptions & Billing, verification, advertiser dashboard and creator enrollment. Creator navigation has a Subscribe to Jamie button. Directory has Advertise With Us / Manage Listing. Additional creator and advertiser enrollment is not open in the prototype. Registration previews email confirmation then a separate adult-age check; no identity documents or emails are collected.
+
+Revenue reporting must distinguish creator-content commissions, live commissions and advertising fees. Existing special arrangements for the founding creator must be supported without confusing ownership, creator proceeds and company distributions. No final fees or new paid tier commitments are invented here. The preview-session toggle changes navigation only, never real authentication, verification or media entitlements.
