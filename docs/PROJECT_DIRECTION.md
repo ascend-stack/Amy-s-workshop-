@@ -1,5 +1,7 @@
 # Platinum After Dark — Project Direction
 
+> Current direction, October 24, 2026: `IMPLEMENTATION_REQUIREMENTS.md` and README.md take precedence over older layout, vendor and registration descriptions below. Account activation requires email confirmation plus a separate provider-managed adult-age check; restricted access also requires the appropriate paid entitlement. Creator website/magazine layouts and separate global/creator navigation are approved. These requirements are not yet connected backend functionality.
+
 Updated October 23, 2026. Status: frontend design prototype; Adent xFans is under evaluation. Source and assets are in `dist/`. Amy’s Workshop is the internal repository name.
 
 ## Current direction

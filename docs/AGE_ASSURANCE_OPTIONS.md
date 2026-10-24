@@ -1,5 +1,7 @@
 # Age assurance options — Amy’s solo site
 
+> Current direction, October 24, 2026: `IMPLEMENTATION_REQUIREMENTS.md` and README.md take precedence over older layout, vendor and registration descriptions below. Account activation requires email confirmation plus a separate provider-managed adult-age check; restricted access also requires the appropriate paid entitlement. Creator website/magazine layouts and separate global/creator navigation are approved. These requirements are not yet connected backend functionality.
+
 Research date: October 22, 2026. Status: preliminary shortlist; no provider purchased, account opened, or integration activated. Product descriptions below come from provider publications, not independent certification of suitability for this site.
 
 ## Recommended next decision

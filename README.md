@@ -1,86 +1,53 @@
-# Platinum After Dark
+# Platinum After Dark — current developer handoff
 
-Portable, buildless website prototype. Serve `dist/` through any static web server. No framework or build step is required.
+Updated October 24, 2026. Public creator: **Jamie Justice**. Vendor: Adent xFans / Nathan G. Source is a portable static frontend prototype, not an operational adult-content platform.
 
-## Current vendor evaluation — October 23, 2026
+## Start here
 
-We are evaluating Adent xFans for Platinum After Dark: Jamie Justice as the founding creator, creator registration hidden at launch, and the option to enable other creators later. Preserve the approved plum satin, platinum lettering, raised gemstones, layouts, and mobile experience. See `docs/XFANS_REVIEW_BRIEF.md` for scope, quoted costs, and questions requiring written confirmation. Earlier Scrile notes are historical research, not the current vendor brief. This remains a frontend prototype; no platform purchase or integration is represented as complete.
+1. `docs/IMPLEMENTATION_REQUIREMENTS.md` — current approved requirements and quote-response checklist.
+2. `docs/CREATOR_PAGE_DESIGN.md` — approved creator website and magazine direction.
+3. `docs/XFANS_REVIEW_BRIEF.md` — proposal history, pricing context and open integration questions.
 
-## Included
+The owner approves the page layout. The vendor should explain implementation, identify gaps and quote them; design approval is not delegated to the vendor. A fixed quote, timeline and directory integration details are pending Nathan's review. No purchase, payment or launch authorization is represented by these files.
 
-Responsive homepage, filterable sample collection, detail dialogs, browser-local saved preview library, membership preview, live lounge, and explanatory privacy/terms/support dialogs. Locked palette: deep plum, platinum, rhinestone-inspired gemstone details. Abstract CSS and SVG artwork contains no explicit media.
+## Preview locally
 
-## Jewelry artwork update
+Serve `dist/`, for example `python3 -m http.server 8000 --directory dist`. No build step is required. Open the server URL and complete the prototype's self-declared 18+ entry. The preview does not verify age.
 
-`dist/assets/plum-platinum-wrap-ring.png` was generated with the built-in image-generation tool. Prompt brief: luxury editorial photograph of deep plum satin and a sculptural open-wrap platinum cocktail ring with a curved rhinestone ribbon; no solitaire or bridal styling, text, or people. `dist/jewelry.css` uses the photograph for the hero and its lower fabric area for supporting backgrounds.
+The private hosted design preview is https://platinum-after-dark.fancyfly17.chatgpt.site . Repository access does not grant access to that private preview. The portable source is sufficient for local review.
 
-The opening section now uses `dist/assets/plum-ring-panorama.png` as a continuous background behind both the copy and jewelry. The built-in image editor extended the approved ring photograph into a wide composition with dark plum fabric on the left and the same ring on the right. Mobile styling uses the portrait composition with a continuous dark fabric blend.
+## Approved navigation and layouts
 
-The lower membership invitation follows the desktop reference: crystal photography on the left, “Your membership. Your access.” in the center, and a bordered View Membership link on the right. `dist/assets/platinum-crystal-facets.png` was created with the built-in image-generation tool using a macro crystal brief with platinum, lilac, and plum reflections and no text or people. Styling is in `dist/membership-banner.css`.
+| Platform navigation | Route | Current presentation |
+| --- | --- | --- |
+| Discover Creators | `#/discover` | Jamie as founding creator; links into her website |
+| Live Cams | `#/cams` | Platform broadcast discovery; Jamie offline |
+| Directory | `#/directory` | Coming-soon layout; no listings or signup |
+| Magazine | `#/magazine` | Editorial index linking to Jamie's feature |
 
-Visual polish adds shared fabric backgrounds to the header, collections, live area, membership panel, and footer. Selected navigation and collection filters use a platinum glow and a single shimmer sweep; reduced-motion preferences disable the animation. Navigation updates its selected state as sections scroll into view. These frontend interactions need no backend.
+| Creator navigation | Route |
+| --- | --- |
+| Home | `#/home` |
+| Collections | `#/collection` |
+| Live | `#/live` |
+| Jamie's Feature | `#/spotlight` |
 
-## Integration work before commercial launch
+The creator website is the personal-brand layout approved from the mockup: plum hero, oversized serif name, platinum artwork, ivory introduction, collection cards and live schedule. The editorial spotlight uses the approved magazine layout. Platform and creator navigation have distinct scopes. Legacy `#/about` redirects to `#/spotlight`.
 
-All content, prices, durations, and membership benefits are illustrative. No accounts, payments, entitlements, age verification, video storage, or streaming are connected. A static page or localStorage must never enforce paid-content access. Add server-side authentication and purchase/subscription authorization; validate payment webhooks and protect media through the selected platform. Replace sample copy, add real support details and final policies, and connect the domain only after launch configuration is complete.
+Other routes include release details, membership, account, library, signup/signin, verification, checkout, membership management, privacy, terms, support and reporting. Collection filtering, browser-local saved previews and demonstration live/library states are frontend interactions only.
 
-Scrile Connect/Stream integration, template compatibility, API access, and product costs remain unconfirmed. This frontend is portable source code, not a claim of compatibility with a specific Scrile plan.
+## Approved account and access requirements
 
-## Consistent dialog and button styling
+Free visitors/accounts can browse approved nonexplicit/censored previews. Account activation requires verified email plus a separate adult-age check through the selected provider, with document checking or other agreed suitable methods. Email alone is not proof of age. Paid membership/purchase permissions are a separate server-side check. Full restricted media must never be shipped to an unauthorized browser behind CSS blur, hidden markup, a static URL or localStorage.
 
-All popup dialogs share the existing plum satin artwork with a dark readability overlay. Primary action buttons use the same translucent plum gradient, platinum border, serif lettering, and corner glow as the View Membership invitation.
+These are implementation requirements, not working features in this source. No accounts, emails, ID uploads, age checks, payments, protected media or broadcasts are connected. No real customer records or explicit imagery are included. All prices, biographies, quotes and schedules are illustrative until creator/owner approval.
 
-Visual comparison: The Velvet Edit and Midnight Notes use a generated fictional adult fashion model in an opaque plum evening dress. Silver Hour retains crystal artwork for comparison. The portrait is a temporary design placeholder and does not depict Amy.
+## Assets and design
 
-## Adults-only entry preview
+Preserve deep plum satin, platinum lettering, raised gemstone, shimmer/glow tabs, non-bridal jewelry and responsive layout. Portrait placeholders are decorative silk/crystals; existing fictional fashion imagery is not Jamie. `dist/assets/creator-silver-silk.webp` is an optimized copy of the generated abstract textile artwork. Existing jewelry assets are retained. Only approved creator photography and copy should replace placeholders.
 
-The satin entry screen defaults to visible and hides the page until the visitor confirms they are 18 or older. It remembers that self-declaration in sessionStorage for the current browser tab. Leave opens a blank page; the footer's 18+ entry control resets confirmation. Without JavaScript the page remains hidden. This is a visual prototype, not age verification or a media authorization boundary. No explicit media is included.
+## Scope and history
 
-Before production: select age assurance appropriate to the served jurisdictions, validate provider results server-side, enforce access on every restricted-media route, use protected media storage, and define privacy and retention policies. Do not use a browser flag to protect explicit media. Creator identity verification is a separate workflow.
+Launch initially with Jamie alone and creator registration hidden/disabled; accommodate future creators. xFans content and live features, directory integration, security, maintenance and recurring costs must be itemized in the fixed quote. Directory production launch requires the separate operational/provider/legal review already planned. The directory placeholder is not evidence of an implemented directory backend.
 
-Serve locally with `python3 -m http.server 8000 --directory dist`, then open localhost:8000. Generated PNG source assets have been replaced with optimized WebP copies for website delivery.
-
-## Full solo-site visual pages
-
-Use hash routes so every destination works on static hosting and survives refresh:
-
-- `#/home`: approved landing design
-- `#/collection`: catalog with category and title search
-- `#/release/velvet`, `#/release/silver`, `#/release/midnight`: individual release views
-- `#/live`: offline and simulated live layouts; local-only chat demonstration
-- `#/membership`: benefits, plan and FAQs
-- `#/library`: saved, purchased and membership sections (only browser-local saves work)
-- `#/account`: profile, billing and privacy designs
-- `#/signin`, `#/signup`: account-entry layouts; no personal information collected
-- `#/checkout/velvet`, `#/checkout/membership`: checkout designs without a payment form
-- `#/confirmation/velvet`: confirmation layout; no order is created
-- `#/verify`: provider-neutral age-assurance journey; no camera or document access
-- `#/about`, `#/privacy`, `#/terms`, `#/support`: editorial and supporting pages
-
-All images and their CSS crops can be replaced later. The hero retains the approved ring and satin design. Destination pages reuse the same typography, satin, platinum borders and glowing action buttons.
-
-Validation: JavaScript syntax checks; browser navigation across all destinations; desktop and 375px content-width overflow checks; saved-release/library journey; entry and footer reset. Provider research is recorded in docs/AGE_ASSURANCE_OPTIONS.md. This is a complete visual pass, not a commercial readiness or compliance certification.
-
-## Creator identity
-
-Public creator name: **Jamie Justice** (exact spelling and capitalization). Any XXX styling is undecided and reserved for Jamie’s approval. Platinum After Dark remains the site brand. Amy’s Workshop remains the internal project/repository context. Public navigation, biography placeholders, and Live Lounge schedule copy use the creator identity. The fictional model placeholder does not depict Jamie Justice.
-
-## Independent development track
-
-Continue visual and portable frontend development without waiting for a platform vendor. `#/manage-membership` now previews active and nonrenewing membership states, cancellation confirmation, and payment-update handoff. These sample states are not customer entitlements. The backend connection plan is in docs/BACKEND_CONNECTION_PLAN.md. No vendor inquiry has been sent by the assistant and no purchase has been made.
-
-## Scrile inquiry and purchase-library examples
-
-The user supplied screenshots confirming a Scrile Connect Solo inquiry sent October 21, 2026. No reply has been reviewed. See docs/SCRILE_INQUIRY_STATUS.md. The `#/library-example` route compares sample active/ended memberships, keeps individual purchases visually distinct, and labels purchase-after-expiry access as a proposed policy pending confirmation. No actual entitlements are granted.
-
-## Reporting and legal page layouts
-
-Draft routes: `#/complaints`, `#/copyright`, `#/safety`, and `#/legal-requests`, linked from the footer. These pages organise report types, planned intake information, related channels and submission acknowledgement design. They do not submit reports or accept documents and are not monitored channels. No legal fees, response deadlines, business address, designated agent, or contact email is invented. Final policies and operating procedures are pending.
-
-## Entry acknowledgment with policy links
-
-The warning screen includes a required 18+ self-acknowledgment checkbox and inline Terms, Privacy, complaint, copyright, safety and legal-request links. Those links open the same draft site information in a separate satin dialog before entry, without exposing the hidden site or checking the box. Continue stays disabled until the visitor checks the box. Closing a policy does not grant entry. Session confirmation uses a new versioned key so visitors see the revised notice. This remains self-declaration, not identity/age verification or a legal-readiness claim.
-
-Platinum sparkle direction: metallic lettering, fine glitter highlights, luminous gemstone marks, and restrained corner glints across buttons and satin panels. Motion is optional and disabled for reduced-motion preferences.
-
-Raised gemstone asset: `dist/assets/platinum-gem-raised.png`, generated with the built-in image tool. Prompt direction: photorealistic three-dimensional diamond in a thick polished platinum bezel, subtle plum reflections, transparent background, restrained natural glints. Shared branding accents use the transparent jewelry render with a soft shadow over the satin.
+Earlier Scrile research and old solo-page status documents are historical where they conflict with the current requirements. External impersonation/takedown protection is separate from website security. ASCEND AI automation is a future optional integration, not implemented or authorized for autonomous account/payment actions.

@@ -1,5 +1,7 @@
 # Platinum After Dark — design review status
 
+> Current direction, October 24, 2026: `IMPLEMENTATION_REQUIREMENTS.md` and README.md take precedence over older layout, vendor and registration descriptions below. Account activation requires email confirmation plus a separate provider-managed adult-age check; restricted access also requires the appropriate paid entitlement. Creator website/magazine layouts and separate global/creator navigation are approved. These requirements are not yet connected backend functionality.
+
 Working brand: Platinum After Dark. Public creator identity: Jamie Justice. The current prototype presents Jamie as the founding creator. We are evaluating Adent xFans to launch with Jamie alone, hide creator registration initially, and enable additional creators later. Amy’s Workshop is the internal repository name. See XFANS_REVIEW_BRIEF.md for the current vendor review scope.
 
 Implemented: age-entry screen; approved homepage; standalone Live Lounge with offline and simulated-live states; filterable/searchable catalog; three release-detail pages; membership and FAQs; saved/purchased/member library states; account, billing and privacy layouts; sign-in/signup/password-recovery preview; checkout and confirmation layouts; provider-neutral verification journey; About Jamie; draft privacy/terms/support pages.

@@ -1,6 +1,10 @@
 # Platinum After Dark — xFans evaluation brief
 
-Updated October 23, 2026. For review and scoping; this is not a purchase order or an executed agreement.
+Updated October 24, 2026. For review and scoping; this is not a purchase order or an executed agreement.
+
+## Current requirements
+
+Read `IMPLEMENTATION_REQUIREMENTS.md` first. It records the latest approved creator website/magazine layouts, platform and creator navigation, censored free previews, email plus adult-age verification at account activation, and server-enforced paid access. These supersede earlier solo-layout or email-as-age-check preferences.
 
 ## Direction
 
@@ -10,7 +14,7 @@ Preserve the approved deep plum satin design, platinum lettering and sparkle, ra
 
 ## Existing prototype
 
-Serve `dist/` as a static directory. It includes the entry acknowledgment with policy links, homepage, collections and release details, Live Lounge, memberships and management states, library, account and sign-in layouts, checkout and confirmation layouts, provider-neutral verification preview, About, and supporting policy/reporting layouts. Review README.md for routes and implementation limits.
+Serve `dist/` as a static directory. It includes the entry acknowledgment with policy links, homepage, collections and release details, Live Lounge, memberships and management states, library, account and sign-in layouts, checkout and confirmation layouts, provider-neutral verification preview, creator website, magazine spotlight/index, platform discovery/live/directory placeholder, and supporting policy/reporting layouts. Review README.md for routes and implementation limits.
 
 All pricing, benefits, schedules, biography copy, and content are provisional. The fictional model imagery does not depict Jamie and will be replaced with approved media. Reporting pages are drafts and do not send reports. No real accounts, payments, protected content delivery, broadcasts, or age checks are connected. Local saved previews are not customer purchase entitlements.
 
@@ -27,7 +31,7 @@ Nathan states that design integration applies to existing xFans features and pag
 
 Nathan confirms memberships, individual photo/video purchases, tips, paid messages, livestreaming, and private video calls. He states that xFans includes CCBill and Verotel integrations. Provider approval, fees, and final configuration remain separate.
 
-Yoti service charges are separate from the integration fee. Desired experience: convenient checks, choice of suitable methods, and easy return visits. Email-based age checks are a preference subject to availability and suitability, not a confirmed implementation promise.
+Yoti service charges are separate from the integration fee. Desired experience: convenient checks, choice of suitable methods, and easy return visits. Email confirmation is required but is not age verification. A separate provider-managed adult-age check at account activation is the approved requirement; exact supported methods and data handling need confirmation.
 
 ## Items to confirm during evaluation
 
@@ -41,10 +45,10 @@ Yoti service charges are separate from the integration fee. Desired experience: 
 
 ## Separate scope
 
-An escort advertising directory is a potential business area discussed by the user. It is not implemented here and is not confirmed as included in Nathan's quote. It needs separate scoping, provider acceptance, and applicable legal review. Do not infer inclusion from xFans creator features.
+An escort advertising directory is a requested separately scoped area. Its coming-soon frontend is present, but its backend is not implemented here and is not confirmed as included in Nathan's quote. It needs separate scoping, provider acceptance, and applicable legal review. Do not infer inclusion from xFans creator features.
 
 ## Review access
 
 Design preview: https://platinum-after-dark.fancyfly17.chatgpt.site
 
-The preview has access restrictions; sending its URL does not automatically grant access. Nathan has requested GitHub access using `Nathan-adentio`; no invitation or permission change is implied by this brief.
+The preview has access restrictions; sending its URL does not automatically grant access. Nathan has confirmed that his team accepted the GitHub invitation and is reviewing the repository for a fixed integration quote, timeline and directory details. This update does not alter access permissions.

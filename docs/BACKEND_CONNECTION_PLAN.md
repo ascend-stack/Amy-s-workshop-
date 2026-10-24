@@ -1,5 +1,7 @@
 # Backend connection plan — independent development track
 
+> Current direction, October 24, 2026: `IMPLEMENTATION_REQUIREMENTS.md` and README.md take precedence over older layout, vendor and registration descriptions below. Account activation requires email confirmation plus a separate provider-managed adult-age check; restricted access also requires the appropriate paid entitlement. Creator website/magazine layouts and separate global/creator navigation are approved. These requirements are not yet connected backend functionality.
+
 Status: Adent xFans is under evaluation following Nathan's proposal. The intended launch starts with Jamie alone, with additional creators enabled later. This document describes required behavior, not verified xFans or Scrile API capabilities. No backend, paid service, or integration has been activated by this plan. Current scope and open questions are in XFANS_REVIEW_BRIEF.md.
 
 Public creator: Jamie Justice. Site brand: Platinum After Dark. Internal project: Amy’s Workshop.
